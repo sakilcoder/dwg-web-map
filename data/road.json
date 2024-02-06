@@ -12,7 +12,10 @@
             "type": "Feature",
             "properties": {
                 "Id": 0.0,
-                "Name": "Nirvana Road"
+                "name": "NIRVANA ROAD (BLOCK 30)",
+                "lot_area": "2.97/7.34",
+                "forntage": "-",
+                "intend_use": "NIRVANA ROAD (COMMON ELEMENT)"
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -350,7 +353,7 @@
             "type": "Feature",
             "properties": {
                 "Id": 0.0,
-                "Name": null
+                "name": null
             },
             "geometry": {
                 "type": "MultiLineString",

@@ -19,14 +19,37 @@
             bottom: 0;
             width: 100%;
         }
+
+        .map-overlay {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: #fff;
+            margin-top: 20px;
+            margin-right: 20px;
+            padding: 0 10px;
+            padding-bottom: 10px;
+            font-family: Arial, sans-serif !important;
+            overflow: auto;
+            border-radius: 3px;
+            /* font-size: 12px !important; */
+        }
+
+        #info {
+            font-size: 12px !important;
+            /* text-transform: capitalize; */
+        }
     </style>
 </head>
 
 <body>
     <div id="map"></div>
-
+    <div class="map-overlay" id="features">
+        <h5>Arizonan Manufactured Home Community</h5>
+        <div id="info"></div>
+    </div>
     <script src="js/index-3d.js"></script>
-    <script src="js/popup.js"></script>
+    <!-- <script src="js/popup.js"></script> -->
 </body>
 
 </html>

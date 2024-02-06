@@ -1,34 +1,471 @@
 {
-"type": "FeatureCollection",
-"name": "plot-building-center",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "1" }, "geometry": { "type": "Point", "coordinates": [ -78.264060251620364, 44.303122057755232 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "2" }, "geometry": { "type": "Point", "coordinates": [ -78.263911918469915, 44.303495233152447 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "3" }, "geometry": { "type": "Point", "coordinates": [ -78.263778642712921, 44.30377610913812 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "4" }, "geometry": { "type": "Point", "coordinates": [ -78.263618068496683, 44.303917689075874 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "5" }, "geometry": { "type": "Point", "coordinates": [ -78.261749041667116, 44.304357154381741 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "6" }, "geometry": { "type": "Point", "coordinates": [ -78.260859484128275, 44.304308679267173 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "7" }, "geometry": { "type": "Point", "coordinates": [ -78.261313578969364, 44.303886077441611 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "8" }, "geometry": { "type": "Point", "coordinates": [ -78.261827723194159, 44.304031689920294 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "9" }, "geometry": { "type": "Point", "coordinates": [ -78.26071725672989, 44.304684453547488 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "10" }, "geometry": { "type": "Point", "coordinates": [ -78.260165406501613, 44.304691675421999 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "11" }, "geometry": { "type": "Point", "coordinates": [ -78.260208577038924, 44.30441002048596 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "12" }, "geometry": { "type": "Point", "coordinates": [ -78.260296018894195, 44.304161077438131 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "13" }, "geometry": { "type": "Point", "coordinates": [ -78.260455879608756, 44.303704896894807 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "14" }, "geometry": { "type": "Point", "coordinates": [ -78.260723138031054, 44.303408871181773 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "15" }, "geometry": { "type": "Point", "coordinates": [ -78.261159111074264, 44.303425148925527 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "16" }, "geometry": { "type": "Point", "coordinates": [ -78.261459306970423, 44.303511051349453 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "17" }, "geometry": { "type": "Point", "coordinates": [ -78.262109262869998, 44.303220241420078 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "18" }, "geometry": { "type": "Point", "coordinates": [ -78.262529795442418, 44.302433667502086 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "19" }, "geometry": { "type": "Point", "coordinates": [ -78.262636902982706, 44.302194759080542 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "20" }, "geometry": { "type": "Point", "coordinates": [ -78.262608374899571, 44.301823918470085 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "21" }, "geometry": { "type": "Point", "coordinates": [ -78.262283579958861, 44.30144326407293 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "22" }, "geometry": { "type": "Point", "coordinates": [ -78.26189878516999, 44.301019319067038 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "23" }, "geometry": { "type": "Point", "coordinates": [ -78.262144907980414, 44.300678190675015 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "24" }, "geometry": { "type": "Point", "coordinates": [ -78.262651919753111, 44.300768072917265 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "25" }, "geometry": { "type": "Point", "coordinates": [ -78.262755674297821, 44.301241299098628 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "26" }, "geometry": { "type": "Point", "coordinates": [ -78.263144891914862, 44.301611494374797 ] } },
-{ "type": "Feature", "properties": { "status": "Available", "p_id": "27" }, "geometry": { "type": "Point", "coordinates": [ -78.263292340209858, 44.30180727886443 ] } }
-]
+    "type": "FeatureCollection",
+    "name": "plot-building-center",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "1",
+                "lot_area": "0.22/0.54",
+                "forntage": "76.4/250.7",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.264060251620364,
+                    44.303122057755232
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "2",
+                "lot_area": "0.22/0.54",
+                "forntage": "29.4/96.5",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.263911918469915,
+                    44.303495233152447
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "3",
+                "lot_area": "0.39/0.97",
+                "forntage": "22.0/72.2",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.263778642712921,
+                    44.30377610913812
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "4",
+                "lot_area": "0.22/0.54",
+                "forntage": "78.2/256.6",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.263618068496683,
+                    44.303917689075874
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "5",
+                "lot_area": "0.20/0.50",
+                "forntage": "57.6/189.0",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.261749041667116,
+                    44.304357154381741
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "6",
+                "lot_area": "0.20/0.50",
+                "forntage": "44.6/146.3",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.260859484128275,
+                    44.304308679267173
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "7",
+                "lot_area": "0.20/0.50",
+                "forntage": "53.5/175.5",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.261313578969364,
+                    44.303886077441611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "8",
+                "lot_area": "0.22/0.55",
+                "forntage": "57.2/187.7",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.261827723194159,
+                    44.304031689920294
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "9",
+                "lot_area": "0.24/0.60",
+                "forntage": "67.1/220.1",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.26071725672989,
+                    44.304684453547488
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "10",
+                "lot_area": "0.33/0.82",
+                "forntage": "21.4/70.2",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.260165406501613,
+                    44.304691675421999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "11",
+                "lot_area": "0.20/0.50",
+                "forntage": "22.5/73.8",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.260208577038924,
+                    44.30441002048596
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "12",
+                "lot_area": "0.20/0.51",
+                "forntage": "52.2/171.3",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.260296018894195,
+                    44.304161077438131
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "13",
+                "lot_area": "0.21/0.51",
+                "forntage": "36.9/121.1",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.260455879608756,
+                    44.303704896894807
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "14",
+                "lot_area": "0.21/0.51",
+                "forntage": "28.7/94.2",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.260723138031054,
+                    44.303408871181773
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "15",
+                "lot_area": "0.25/0.62",
+                "forntage": "25.7/84.3",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.261159111074264,
+                    44.303425148925527
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "16",
+                "lot_area": "0.20/0.51",
+                "forntage": "56.2/184.4",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.261459306970423,
+                    44.303511051349453
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "17",
+                "lot_area": "0.20/0.50",
+                "forntage": "57.0/187.0",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.262109262869998,
+                    44.303220241420078
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "18",
+                "lot_area": "0.21/0.53",
+                "forntage": "103.6/339.9",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.262529795442418,
+                    44.302433667502086
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "19",
+                "lot_area": "0.20/0.50",
+                "forntage": "60.5/198.5",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.262636902982706,
+                    44.302194759080542
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "20",
+                "lot_area": "0.20/0.50",
+                "forntage": "6.0/19.7",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.262608374899571,
+                    44.301823918470085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "21",
+                "lot_area": "0.20/0.50",
+                "forntage": "61.6/202.1",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.262283579958861,
+                    44.30144326407293
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "22",
+                "lot_area": "0.20/0.50",
+                "forntage": "34.9/114.5",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.26189878516999,
+                    44.301019319067038
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "23",
+                "lot_area": "0.20/0.50",
+                "forntage": "36.3/119.1",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.262144907980414,
+                    44.300678190675015
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "24",
+                "lot_area": "0.20/0.50",
+                "forntage": "49.2/161.4",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.262651919753111,
+                    44.300768072917265
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "25",
+                "lot_area": "0.20/0.50",
+                "forntage": "48.9/160.4",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.262755674297821,
+                    44.301241299098628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "26",
+                "lot_area": "0.20/0.50",
+                "forntage": "27.7/90.9",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.263144891914862,
+                    44.301611494374797
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "status": "Available",
+                "p_id": "27",
+                "lot_area": "0.20/0.50",
+                "forntage": "81.4/267.1",
+                "intend_use": "SINGLE DETACHED DWELLING"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.263292340209858,
+                    44.30180727886443
+                ]
+            }
+        }
+    ]
 }
